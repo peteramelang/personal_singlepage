@@ -1,0 +1,51 @@
+//
+// Scaffolding
+// --------------------------------------------------
+
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix {
+	@include clearfix;
+}
+
+body, html {
+	color: $text-color;
+	background-color: $body-bg;
+	font-family: $font-family-base;
+	font-size: $font-size-base;
+	-moz-osx-font-smoothing: grayscale;
+	line-height: $line-height-base;
+	height: 100%;
+}
+
+.wrapper {
+	a {
+		text-decoration: none;
+		color: $black;
+	}
+}
+
+.content.center {
+	margin: 0 auto;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+p {
+	&.font-size-h1 { font-size: $font-size-h1; }
+	&.font-size-h2 { font-size: $font-size-h2; }
+	&.font-size-h3 { font-size: $font-size-h3; }
+	&.font-size-h4 { font-size: $font-size-h4; }
+}

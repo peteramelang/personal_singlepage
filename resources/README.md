@@ -1,8 +1,3 @@
-# playground
-My own little playground.
-
-# /resources/
-
 ## Grunt
 Task [grunt-image](https://www.npmjs.org/package/grunt-image) only supports PNGs.
 
