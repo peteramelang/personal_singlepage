@@ -1,5 +1,5 @@
-# playground
-My own little playground.
+# boilerplate
+My boilerplate for every new project.
 
 # /resources/
 
