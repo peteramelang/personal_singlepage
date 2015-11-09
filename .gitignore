@@ -1,0 +1,22 @@
+# Project files
+/.idea/
+/.idea/tasks.xml
+/dev/.vagrant/
+
+# General swap/backup files
+*.so
+*.log
+*.out
+*~
+*.swp
+*.DS_Store
+*.sass-cache*
+
+
+/ressources/node_modules/*
+
+
+# This should stay at the bottom
+!*.gitkeep
+
+resources/node_modules
