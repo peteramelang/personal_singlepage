@@ -14,38 +14,26 @@
 	padding: 0;
 }
 
-.clearfix {
-	@include clearfix;
-}
-
 body, html {
-	color: $text-color;
-	background-color: $body-bg;
+	color: black;
+	background-color: white;
 	font-family: $font-family-base;
-	font-size: $font-size-base;
+	font-size: 18px;
 	-moz-osx-font-smoothing: grayscale;
-	line-height: $line-height-base;
 	height: 100%;
 }
 
-.wrapper {
+.container {
 	a {
 		text-decoration: none;
-		color: $black;
-	}
-}
+		color: black;
 
-.content.center {
-	margin: 0 auto;
+		&:hover {
+			text-decoration: line-through;
+		}
+	}
 }
 
 ul, ol {
 	list-style: none;
-}
-
-p {
-	&.font-size-h1 { font-size: $font-size-h1; }
-	&.font-size-h2 { font-size: $font-size-h2; }
-	&.font-size-h3 { font-size: $font-size-h3; }
-	&.font-size-h4 { font-size: $font-size-h4; }
 }

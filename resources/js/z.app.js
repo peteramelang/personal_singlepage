@@ -1,8 +1,15 @@
 (function(){
 	$(document).ready(function() {
-		// function executions go here
+		initPage();
+
+		$(window).resize(function() {
+			initPage();
+		});
 	});
 
-	// functions go here
+	function initPage() {
+		$('.container').width($('header').width());
+
+	}
 
 })();

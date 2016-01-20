@@ -2,63 +2,12 @@
 // Variables
 // --------------------------------------------------
 
-// Colors
-
-$white:    				rgb(255, 255, 255);
-$black:    				rgb(0, 0, 0);
-$darkgrey: 				rgb(71,71,71);
-
-
-// Scaffolding
-
-$body-bg:               $white !default;
-$text-color:            $black !default;
-
-$link-color:            $black !default;
-$link-hover-color:      $black !default;
-
-
 // Typography
 
 @media screen and (-webkit-min-device-pixel-ratio:0) { html {-webkit-font-smoothing: antialiased;}}
 
-@import url(http://fonts.googleapis.com/css?family=Lato:400,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Quattrocento:400,700);
+@import url(https://fonts.googleapis.com/css?family=Fanwood+Text:400,400italic);
 
-
-$font-family-sans-serif:  "Lato", Helvetica, Arial, sans-serif !default;
-$font-family-base:        $font-family-sans-serif !default;
-
-$font-size-base:          12px !default;
-$font-size-large:         16px !default; // 18px
-$font-size-small:         10px !default; // 12px
-
-$font-size-h1:            72px;
-$font-size-h2:            36px;
-$font-size-h3:            28px;
-$font-size-h4:            24px;
-$font-size-h5:            $font-size-base !default;
-$font-size-h6:            $font-size-small;
-
-$font-weight-light: 	  400;
-$font-weight-bold: 		  900;
-
-$line-height-base:        1.428571429 !default; // 20/14
-$line-height-computed:    floor(($font-size-base * $line-height-base)) !default; // ~20px
-
-$headings-font-family:    $font-family-base !default;
-$headings-color:          $black !default;
-
-
-// Image sprites
-//
-// Automatic image handler supports only PNG-files!
-// ###################################################
-// Usage:
-// For Sprites: @include retina-sprite-background(Filename without extension);
-// For single images: @include retina-background(Filename without extension);
-
-$iconsSprite: sprite-map("sprites/normal/*.png", $spacing: 5px);
-$iconsSpriteRetina: sprite-map("sprites/retina/*.png", $spacing: 5px);
-
-$iconsNormal: "no-sprites/normal/";
-$iconsRetina: "no-sprites/retina/";
+$font-family-headline:    'Quattrocento', serif !default;
+$font-family-base:    	  'Fanwood Text', serif !default;
