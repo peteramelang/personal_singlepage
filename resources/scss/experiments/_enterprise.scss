@@ -1,0 +1,88 @@
+$grey: #F3F5F8;
+$yellow: #FCCE21;
+
+body {
+	background: #5B6062;
+	height: 100%;
+	width: 100%;
+}
+
+.container {
+	width: 440px;
+	height: 312px;
+	margin: auto;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.circle {
+	@include elementSetup(290px, 290px);
+	@include borderradius(100%);
+	margin: 0 auto;
+	background: #2D2D2F;
+	border: 11px solid #4B4D4F;
+}
+
+.enterprise {
+	position: absolute;
+	z-index: 2;
+	width: 100%;
+	height: 100%;
+
+	.bridge-sphere {
+		@include elementSetup(17px, 7px);
+		background: $yellow;
+		@include border-top-radius(17px);
+	}
+
+	.bridge-top {
+		@include elementSetup(27px, 4px);
+		@include border-top-radius(5px);
+		background: #E4E7EB;
+	}
+
+	.bridge {
+		@include elementSetup(58px, 7px);
+		@include border-top-radius(25px);
+		background: $grey;
+	}
+
+	.bulge {
+		.sphere {
+			@include elementSetup(126px, 7px);
+			@include border-top-radius(15px);
+			background: #E4E7EB;
+		}
+
+		.rect {
+			@include elementSetup(58px, 4px);
+			@include border-top-radius(3px);
+			background: #E4E7EB;
+		}
+	}
+
+	.main {
+		.sphere {
+			@include elementSetup(200px, 8px);
+			@include border-bottom-radius(20px);
+			background: $grey;
+		}
+
+		.rect {
+			@include elementSetup(50px, 8px);
+			background: $grey;
+		}
+	}
+
+	.bulge-down {
+		@include elementSetup(68px, 22px);
+		@include borderradius(2.91px);
+		background: $grey;
+	}
+
+	.bottom-rect {
+		@include elementSetup(16px, 2px);
+		@include border-bottom-radius(2px);
+		background: $grey;
+	}
+}
