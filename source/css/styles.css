@@ -402,3 +402,17 @@ ul, ol {
   text-align: center;
   font-size: 12px;
 }
+.container footer .imprint-toggle {
+  margin-top: 10px;
+  cursor: pointer;
+  display: block;
+}
+.container #imprint {
+  float: left;
+  display: none;
+}
+.container #imprint b {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Quattrocento", serif;
+}
